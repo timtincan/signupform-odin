@@ -52,3 +52,37 @@ h6 {
 }
 
 /* General */
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    display: block;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border-color: 2px solid green;
+}
+
+input:focus {
+    border: 2px solid blue;
+}
+
+label {
+    opacity: 0.6;
+}
+
+label > span {
+    font-size: 14px;
+}
